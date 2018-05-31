@@ -11,7 +11,7 @@ body {
 }
 
 .hellomakers {
-	background: url(placeholderImage.jpg) no-repeat center;
+	background: url(images/jumbos/placeholderImage.jpg) no-repeat center;
 	background-size: cover;
 	position: absolute;
 	width: 100%; 
@@ -24,7 +24,7 @@ body {
 }
 
 .considerDonating {
-    background: url(testdonimg.jpg) no-repeat center;
+    background: url(images/jumbos/testdonimg.jpg) no-repeat center;
     background-size: cover;
     position: absolute;
     width: 100%; 
@@ -37,7 +37,7 @@ body {
 }
 
 .teamBigPic {
-    background: url(teamTest.jpg) no-repeat center;
+    background: url(images/jumbos/teamTest.jpg) no-repeat center;
     background-size: cover;
     position: absolute;
     width: 100%; 
