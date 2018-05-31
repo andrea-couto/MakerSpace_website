@@ -36,6 +36,19 @@ body {
     display: inline-block;
 }
 
+.teamBigPic {
+    background: url(teamTest.jpg) no-repeat center;
+    background-size: cover;
+    position: absolute;
+    width: 100%; 
+    height: 500px; 
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: inline-block;
+}
+
 .overlay { 
 	background-color: #FFFFFF; 
 	position: absolute;
@@ -50,6 +63,7 @@ body {
 }
 
 .container {
+    padding-top: 30px;
 	z-index: 3;
 }
 
@@ -69,6 +83,14 @@ footer {
     padding-left:5em;
 }
 
+.card-img-top {
+    max-width: 100%;
+    height: auto;
+}
+
+.teamPerson {
+    padding: 5px;
+}
 
 
 
