@@ -1,5 +1,5 @@
 body {
-  padding-top: 10rem;
+  padding-top: 7rem;
   position: relative;
 }
 
@@ -90,6 +90,14 @@ footer {
 
 .teamPerson {
     padding: 5px;
+}
+
+.innovationImg {
+    padding:5px;
+}
+
+.smallerFont {
+    font-size: 11px;
 }
 
 
