@@ -96,12 +96,14 @@
           </select>
         </div>
 
-        <form class="">
-          <input class="form-control" type="text" placeholder="Write your feedback here"><br>
-          <button class="btn btn-outline-success" type="submit">Submit</button>
+        <form id="feedback" method="post" action ="">
+          <input class="form-control" name="name" type="text" placeholder="Your Name" required><br>
+          <input class="form-control" name="email" type="email" placeholder="Your Email" required><br>
+          <textarea name="message" class="form-control" placeholder="Write your feedback here" row="4"></textarea><br>
+          <button value="SEND MESSAGE" class="btn btn-outline-success" type="submit">Submit</button>
         </form>
-
       </div>
+      
     </div>
   </div>
 
