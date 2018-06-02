@@ -109,15 +109,16 @@ footer {
     padding:5px;
 }
 
-.smallerFont {
-    font-size: 11px;
-}
-
 .lineupsidebar {
     
 }
 
 .row {
     padding-bottom: 30px;
+}
+
+.center_div {
+    margin: 0 auto;
+    width:80% /* value of your choice which suits your alignment */
 }
 
