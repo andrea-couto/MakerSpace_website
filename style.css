@@ -109,16 +109,12 @@ footer {
     padding:5px;
 }
 
-.lineupsidebar {
-    
-}
-
-.row {
+.col-sm {
     padding-bottom: 30px;
 }
 
 .center_div {
     margin: 0 auto;
-    width:80% /* value of your choice which suits your alignment */
+    width:80%
 }
 
