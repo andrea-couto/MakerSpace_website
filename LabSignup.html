@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="makerspace">
-    <meta name="author" content="Andy Couto">
+    <meta name="author" content="Makerspace Team">
 
     <!-- icons -->
     <link rel="apple-touch-icon" sizes="57x57" href="fav/apple-icon-57x57.png">
@@ -84,24 +84,16 @@
     <div class="main-container">
 
       <div class="container">
-          <h3 class="display-3 text-center font-weight-bold">Feedback</h3><br><br>
+          <h3 class="display-3 text-center font-weight-bold">Project Signup</h3><br><br>
       </div>
 
   <div class="center_div">
-        <div class="form-group">
-          <label for="sel1">Pertaining Workshop:</label>
-          <select class="form-control" id="sel1">
-            <option>No Workshop</option>
-            <option>Scratch Workshop</option>
-            <option>Arduino Workshop</option>
-            <option>Python Workshop</option>
-          </select>
-        </div>
-
         <form id="feedback" method="post" action ="">
           <input class="form-control" name="name" type="text" placeholder="Your Name" required><br>
           <input class="form-control" name="email" type="email" placeholder="Your Email" required><br>
-          <textarea name="message" class="form-control" placeholder="Write your feedback here" row="4"></textarea><br>
+          <textarea name="message" class="form-control" placeholder="What do you intend to spend your time doing?" required row="4"></textarea><br>
+          <textarea name="message" class="form-control" placeholder="Date and time" required row="4"></textarea><br>
+          <br>
           <button value="SEND MESSAGE" class="btn btn-outline-success" type="submit">Submit</button>
         </form>
       </div>
