@@ -35,6 +35,9 @@
 
     <!-- Custom styles for this template -->
     <link href="style.css" rel="stylesheet">
+
+        <!-- Load font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
 
   <body>
@@ -48,7 +51,7 @@
       <div class="collapse navbar-collapse" id="navId">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home
+            <a class="nav-link" href="./index.html">Home
             <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
@@ -73,17 +76,28 @@
         <div class="nav-item form-inline my-2 my-lg-0">
           <a class="nav-link text-white" href="./donations.html">Donations</a>
         </div>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
+        <div class="nav-item form-inline my-2 my-lg-0">
+          <a class="nav-link text-white" href="./projectSignUp.html">Project Signup</a>
+        </div>
+        <div class="nav-item form-inline my-2 my-lg-0">
+          <a class="nav-link text-white" href="./LabSignup.html">Lab Signup</a>
+        </div>
+
       </div>
     </nav>
+
+<!-- The social media icon bar -->
+<div class="icon-bar">
+  <a href="#" class="facebook col"><i class="fa fa-facebook"></i></a> 
+  <a href="#" class="twitter col"><i class="fa fa-twitter"></i></a> 
+  <a href="#" class="youtube col"><i class="fa fa-youtube"></i></a> 
+  <a href="#" class="instagram col"><i class="fa fa-instagram"></i></a> 
+</div>
 
     <div class="main-container">
 
       <div class="hellomakers">
-        <div class="overlay"></div>
+        <div class="overlay-main"></div>
       </div>
 
       <div class="container">
@@ -94,7 +108,7 @@
       <div class="container">
         <div class="description">
           <div class="text-center">
-          <img class = "innovationImg" src="./images/innovation.png" style="width:50px;height:50px;"> What does innovation mean to you?<br></div><br><br>
+          <img class = "innovationImg" src="./images/innovation.png" style="width:50px;height:50px;"> Project of the Month: __ by __</div><br><br>
 
           <h2>What is a Makerspace?</h2>
           <p>
@@ -105,6 +119,13 @@
           <p>
             The BSU makerspace is a collaborative project between many departments. The central part of the makerspace is the Hub located in the Dana Mohler-Faria Science & Mathematics Center. If it is your first time visiting, this is where you want to go (see FAQ -> What we can offer you). The Hub is where we will check you in and determine where you should go next for the guidance or tools you need.<br>
             Workshops are an important aspect of our makerspace. See "Workshops" in the navigation bar to see what new skills you can learn! <br><br>
+          </p>
+
+          <h2>Mandatory Safety Quiz!</h2>
+          <p>
+            Before your first visit you must pass the <a href="">safety quiz</a> with a score of 100%.<br>
+            Make sure to read the safety rules and watch the training videos.<br><br>
+
           </p>
 
           <h2>What to Bring</h2>
@@ -123,9 +144,20 @@
 
       <hr>
 
-      <footer>
-        &copy; Bridgewater State University's Makerspace
-      </footer>
+      <div class="footer">
+
+        <div class="sponsors text-center">
+          <span class="text-white"><h1>Sponsors</h1></span><br>
+          <img style="height: 50px; width: 200px;" src="./images/sponsors/testSponsor.png">
+          <br><br>
+          <p class="text-center"><a class="text-white" href="./donations.html">Want to be a sponsor?</a></p>
+        </div>
+
+        <footer>
+          &copy; Bridgewater State University's Makerspace
+        </footer>
+      </div>
+
     </div>
 
 
